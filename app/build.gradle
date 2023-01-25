@@ -3,6 +3,14 @@ plugins {
 }
 
 android {
+    signingConfigs {
+        debug {
+            storeFile file('C:\\Users\\97589\\keystore\\class.jks')
+            storePassword '809896'
+            keyAlias 'key0'
+            keyPassword '809896'
+        }
+    }
     namespace 'edu.northeastern.numad23sp_zhehaoxu'
     compileSdk 32
 
