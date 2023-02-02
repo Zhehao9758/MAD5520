@@ -90,6 +90,7 @@ public class LinkCollector extends Activity {
                 snackbar.setAction("Undo", v -> {
                     links.remove(links.size()-1);
                     linkAdapter.notifyDataSetChanged();
+                    Snackbar.make(view,"Undone",Snackbar.LENGTH_SHORT).show();
                 });
                 snackbar.show();
             }
