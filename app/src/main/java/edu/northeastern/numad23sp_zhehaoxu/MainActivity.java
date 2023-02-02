@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 
+import edu.northeastern.numad23sp_zhehaoxu.link_collector.LinkCollector;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -16,6 +18,8 @@ public class MainActivity extends AppCompatActivity {
         aboutMe.setOnClickListener(view -> startActivity(new Intent(MainActivity.this,AboutMe.class)));
         Button clickyButton = findViewById(R.id.clicky);
         clickyButton.setOnClickListener(view -> startActivity(new Intent(MainActivity.this,Clicky.class)));
+        Button link_collector=findViewById(R.id.link_collector);
+        link_collector.setOnClickListener(view -> startActivity(new Intent(MainActivity.this, LinkCollector.class)));
     }
 
 }

@@ -10,4 +10,9 @@
     <string name="f">F</string>
     <string name="email_xu_zheh_northeastern_edu">Email: xu.zheh@northeastern.edu</string>
     <string name="name_zhehao_xu">Name: Zhehao Xu</string>
+    <string name="link_collector">Link Collector</string>
+    <string name="input_url">Input URL</string>
+    <string name="input_name">Input Name</string>
+    <string name="add">ADD</string>
+    <string name="go_back">Go Back</string>
 </resources>
