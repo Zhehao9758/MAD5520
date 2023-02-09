@@ -31,6 +31,8 @@
         </activity>
         <activity android:name=".link_collector.LinkCollector">
         </activity>
+        <activity android:name=".Prime">
+        </activity>
     </application>
 
 </manifest>

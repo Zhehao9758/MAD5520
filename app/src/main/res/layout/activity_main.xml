@@ -56,4 +56,17 @@
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:layout_constraintVertical_bias="0.334" />
 
+    <Button
+        android:id="@+id/prime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/prime_drective"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintBottom_toTopOf="@+id/link_collector"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.495" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

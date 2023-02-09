@@ -20,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
         clickyButton.setOnClickListener(view -> startActivity(new Intent(MainActivity.this,Clicky.class)));
         Button link_collector=findViewById(R.id.link_collector);
         link_collector.setOnClickListener(view -> startActivity(new Intent(MainActivity.this, LinkCollector.class)));
+        Button prime=findViewById(R.id.prime);
+        prime.setOnClickListener(view -> startActivity(new Intent(MainActivity.this, Prime.class)));
     }
 
 }
