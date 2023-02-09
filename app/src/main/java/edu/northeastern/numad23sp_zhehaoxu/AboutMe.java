@@ -1,9 +1,10 @@
 package edu.northeastern.numad23sp_zhehaoxu;
 
-import android.app.Activity;
-import android.os.Bundle;
 
-public class AboutMe extends Activity {
+import android.os.Bundle;
+import androidx.appcompat.app.AppCompatActivity;
+
+public class AboutMe extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

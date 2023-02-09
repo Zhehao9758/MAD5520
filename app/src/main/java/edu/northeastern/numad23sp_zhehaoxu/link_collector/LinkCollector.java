@@ -9,6 +9,7 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -22,7 +23,7 @@ import java.util.List;
 
 import edu.northeastern.numad23sp_zhehaoxu.R;
 
-public class LinkCollector extends Activity {
+public class LinkCollector extends AppCompatActivity {
 
     private RecyclerView linkRecyclerView;
     private LinkAdapter linkAdapter;
