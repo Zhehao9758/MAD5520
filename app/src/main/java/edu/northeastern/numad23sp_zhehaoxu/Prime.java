@@ -10,7 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class Prime extends AppCompatActivity {
-    private boolean isSearching=false;
+    private volatile boolean isSearching=false;
     private boolean isPacifierOn=false;
     private int curNumData=3;
     private int curPrimeData;
