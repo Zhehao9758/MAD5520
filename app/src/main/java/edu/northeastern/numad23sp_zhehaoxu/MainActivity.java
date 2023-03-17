@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         Button prime=findViewById(R.id.prime);
         prime.setOnClickListener(view -> startActivity(new Intent(MainActivity.this, Prime.class)));
         Button location=findViewById(R.id.location);
-        location.setOnClickListener(view-> startActivity(new Intent(MainActivity.this, Location.class)));
+        location.setOnClickListener(view-> startActivity(new Intent(MainActivity.this, LocationActivity.class)));
     }
 
 }
